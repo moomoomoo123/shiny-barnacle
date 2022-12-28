@@ -1,0 +1,70 @@
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(1, 28, 9);
+    margin-left: 140px;
+}
+
+#drawn_sketch {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding-top: 10px;
+    margin-right: 100px;
+}
+
+#p2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding-top: 10px;
+    margin-right: 100px;
+}
+
+#drawn_sketch {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding-top: 10px;
+    margin-right: 150px;
+    color:olivedrab;
+}
+
+#btn1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #bded9c, #abeb80, #bded9c);
+}
+
+#show_sketch {
+    float:right;
+    margin-right: 25px;
+}
+
+canvas {
+    border: 5px solid whitesmoke;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px grey;}
+    to {box-shadow: 1px 1px 38px whitesmoke;}
+}
+
+#score {
+    float:left;
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+#timer {
+    float:right;
+    margin-right: 50px;
+    font-size: 16px;
+}
+
+#sketch_name {
+    margin-right: 120px;
+}
